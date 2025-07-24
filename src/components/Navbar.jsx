@@ -57,13 +57,13 @@ const Navbar = () => {
                     <BsYoutube />
                 </li>
                 <li className='cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100'>
-                    <BsLinkedin />
+                    <a href="www.linkedin.com/in/saifuddin-khan-a38833322"><BsLinkedin /></a>
                 </li>
                 <li className='cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-sky-500 hover:opacity-100'>
                     <BsTwitterX />
                 </li>
                 <li className='cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100'>
-                    <BsGithub />
+                    <a href="https://github.com/Saifuddin4007"><BsGithub /></a>
                 </li>
             </ul>
 
