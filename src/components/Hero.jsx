@@ -9,13 +9,13 @@ const Hero = () => {
                 initial={{y: -50, opacity:0}}
                 animate={{y: 0, opacity:1}}
                 transition={{duration: 0.8, delay:0.3}}
-                className='flex max-w-[600px] flex-col items-center justify-center gap-3 text-cente'>
+                className='flex md:max-w-[800px] flex-col items-center justify-center gap-3 text-cente'>
 
                     <h1 className='text-blue-400 text-4xl md:text-6xl font-semibold transition-all duration-300 hover:opacity-100' style={{
                     background: 'linear-gradient(to right, #3b82f6, #ec4899)',
                     WebkitBackgroundClip: 'text',
                     WebkitTextFillColor: 'transparent'
-                }}>Saifuddin Khan</h1>
+                }}> Hii I'm Saifuddin Khan</h1>
 
 
                 <h3 className='text-blue-400 text-2xl md:text-4xl font-light transition-all duration-300 hover:opacity-100' style={{
