@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+
+*{
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(0,0,0,0.9);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom, rgb(0,62,196),  rgb(184,0,153));
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(-14px) translateX(6px); }
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(12px) translateX(-10px); }
+}
+
+@keyframes float3 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(-18px) translateX(12px); }
+}
+
+@keyframes float4 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(10px) translateX(14px); }
+}
+
+@keyframes float5 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(-12px) translateX(-10px); }
+}
+
+@keyframes float6 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(16px) translateX(8px); }
+}
+
+@keyframes float7 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(-20px) translateX(-14px); }
+}
+
+@keyframes float8 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(14px) translateX(-12px); }
+}
