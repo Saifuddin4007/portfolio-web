@@ -28,9 +28,9 @@ function App() {
         <Hero />
         <Tech />
         <Projects />
-        <Contact />
-        <Footer />
       </main> 
+      <Contact />
+      <Footer />
     </>
   )
 }
