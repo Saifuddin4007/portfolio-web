@@ -17,7 +17,7 @@ const Navbar = () => {
                     background: 'linear-gradient(to right, #3b82f6, #ec4899)',
                     WebkitBackgroundClip: 'text',
                     WebkitTextFillColor: 'transparent'
-                }}>Saifuddin</a>
+                }}><span className='kaushan-script-regular'>Saifuddin</span></a>
 
             <ul className='hidden md:flex gap-10'>
 
@@ -57,13 +57,13 @@ const Navbar = () => {
                     <BsYoutube />
                 </li>
                 <li className='cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100'>
-                    <a href="www.linkedin.com/in/saifuddin-khan-a38833322"><BsLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/saifuddin-khan-a38833322" target="_blank"><BsLinkedin /></a>
                 </li>
                 <li className='cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-sky-500 hover:opacity-100'>
                     <BsTwitterX />
                 </li>
                 <li className='cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100'>
-                    <a href="https://github.com/Saifuddin4007"><BsGithub /></a>
+                    <a href="https://github.com/Saifuddin4007" target="_blank"><BsGithub /></a>
                 </li>
             </ul>
 
