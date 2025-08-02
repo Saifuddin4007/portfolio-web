@@ -29,7 +29,6 @@ const Tech = () => {
                     <RiReactjsLine className="w-12 h-12 absolute top-[50%] left-[10%] animate-[float4_8s_ease-in-out_infinite] opacity-80 text-sky-600" />
                     <RiTailwindCssFill className="w-12 h-12 absolute top-[18%] left-[75%] animate-[float5_6s_ease-in-out_infinite] opacity-80 text-blue-400" />
                     <RiNextjsFill className="w-12 h-12 bg-white p-1 rounded-full absolute top-[75%] left-[25%] animate-[float6_7s_ease-in-out_infinite] opacity-80" />
-                    <img src="/public/jest.png" className="w-12 h-12 absolute top-[5%] left-[55%] animate-[float7_8s_ease-in-out_infinite] opacity-80" />
                     <img src="/gsap2.png" className="w-12 h-12 absolute top-[35%] left-[20%] animate-[float8_6s_ease-in-out_infinite] opacity-80" />
                 </div>
 
