@@ -4,7 +4,7 @@ import AnimatedName from './AnimatedName';
 
 const Hero = () => {
     return (
-        <div id='home' className='px-16 flex min-h-screen w-full items-center justify-center py-28 md:px-32'>
+        <div id='home' className='px-16 flex flex-col min-h-screen w-full items-center justify-center py-28 md:px-32'>
             <div className='flex flex-col items-center justify-center gap-10 text-shadow-indigo-200'>
                 <motion.div
                     initial={{ y: -50, opacity: 0 }}
@@ -34,6 +34,14 @@ const Hero = () => {
                 </motion.div>
 
             </div>
+
+           <a 
+                 href="sk-resume.pdf" 
+                 download="Saifuddin-Khan-Resume.pdf"
+                 className='bg-blue-400 hover:bg-blue-500 rounded-xl p-3 mt-5 font-medium text-white text-xl transition-colors duration-300 inline-block text-center'
+             >
+                 📄 Download Resume
+             </a>
 
         </div>
     )
