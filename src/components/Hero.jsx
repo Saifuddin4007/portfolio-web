@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import AnimatedName from './AnimatedName';
+import InterestsRotator from './InterestsRotator';
 
 const Hero = () => {
     return (
@@ -12,11 +13,11 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.3 }}
                     className='flex md:max-w-[800px] flex-col items-center justify-center gap-3 text-cente'>
 
-                    <h1 className='text-blue-400 text-3xl md:text-5xl font-semibold transition-all duration-300 hover:opacity-100' style={{
+                    <div className='text-blue-400 text-3xl md:text-5xl font-semibold transition-all duration-300 hover:opacity-100' style={{
                         background: 'linear-gradient(to right, #3b82f6, #ec4899)',
                         WebkitBackgroundClip: 'text',
                         WebkitTextFillColor: 'transparent'
-                    }}> Hii I'm <AnimatedName /> </h1>
+                    }}> Hii I'm <AnimatedName /> </div>
 
 
                     <h3 className='text-blue-400 text-2xl md:text-4xl font-light transition-all duration-300 hover:opacity-100' style={{
@@ -24,12 +25,15 @@ const Hero = () => {
                         WebkitBackgroundClip: 'text',
                         WebkitTextFillColor: 'transparent'
                     }}>
-                        Web Developer
+                        Tech Enthusiast
                     </h3>
 
                     <p className='md:text-base text-pretty text-sm text-gray-500 text-center'>
-                        I'm a Web Developer skilled in React.Js, NodeJs, Tailwindcss and JavaScript, focused on building clean and scalable applications. From front-end design to database integration. I create efficient and scalable solutions for dynamic user experiences.
+                        A dedicated Tech Enthusiast aiming to grow as a skilled fullstack developer and build meaningful digital products.
                     </p>
+                    <div>
+                        <InterestsRotator />
+                    </div>
 
                 </motion.div>
 
