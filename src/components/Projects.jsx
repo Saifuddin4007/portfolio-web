@@ -1,6 +1,7 @@
 import React from 'react';
 import image1 from '../assets/expense-tracker_1.png';
-import image2 from '../assets/3D-Animation_Page.png';
+import image2 from '../assets/realstate-website.png';
+import image3 from '../assets/3D-Animation_Page.png';
 import {motion} from 'framer-motion';
 
 const projectData = [
@@ -12,6 +13,12 @@ const projectData = [
   },
   {
     image: image2,
+    title: "Realstate Website",
+    description: "A responsive and attractive realstate website Uer Interface and landing page by using reactJs, tailwindcss, framer motion .",
+    technologies: ['React', 'Tailwindcss', 'framer motion'],
+  },
+  {
+    image: image3,
     title: "3D Animation Landing Page",
     description: "A 3D Animation landing page to showcase the animation and design",
     technologies: ['React', 'Tailwindcss', 'Spline'],
