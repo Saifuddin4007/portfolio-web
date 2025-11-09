@@ -61,7 +61,7 @@ export default function AnimatedName() {
   // Return the JSX that will be rendered
   return (
     // Main heading element with responsive text sizing and gradient styling
-    <h1 className="text-2xl md:text-5xl font-bold m-0 p-0 leading-none"
+    <div className="text-2xl md:text-5xl font-bold m-0 p-0 leading-none"
          style={{
            // Create a gradient background from green to cyan
            background: 'linear-gradient(to right, #10b981, #06b6d4)',
@@ -100,6 +100,6 @@ export default function AnimatedName() {
           {letter === ' ' ? '\u00A0' : letter}
         </span>
       ))}
-    </h1>
+    </div>
   );
 }
