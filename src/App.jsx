@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 import Footer from "./components/Footer";
+import ContactForm from "./components/ContactForm";
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Tech />
         <Projects />
       </main> 
+      <ContactForm />
       <Contact />
       <Footer />
     </>

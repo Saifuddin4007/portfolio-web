@@ -13,7 +13,6 @@ const InterestsRotator  = () => {
           strings={[
             "💻 Backend Engineering",
             "🔒 Cybersecurity",
-            "🎮 Game Dev",
           ]}
           typeSpeed={60}     // typing speed
           backSpeed={40}     // backspacing speed
