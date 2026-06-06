@@ -5,50 +5,79 @@ import InterestsRotator from './InterestsRotator';
 
 const Hero = () => {
     return (
-        <div id='home' className='px-16 flex flex-col min-h-screen w-full items-center justify-center py-28 md:px-32'>
-            <div className='flex flex-col items-center justify-center gap-10 text-shadow-indigo-200'>
+        <div id='home' className='px-8 md:px-32 flex flex-col min-h-screen w-full items-center justify-center py-28'>
+            <div className='flex flex-col items-center justify-center gap-10'>
+
                 <motion.div
                     initial={{ y: -50, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.3 }}
-                    className='flex md:max-w-[800px] flex-col items-center justify-center gap-3 text-cente'>
+                    className='flex md:max-w-[720px] flex-col items-center justify-center gap-4 text-center'
+                >
+                    {/* Availability badge */}
+                    <span className='inline-flex items-center gap-2 text-sm text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 rounded-full px-4 py-1.5 font-medium'>
+                        <span className='w-2 h-2 rounded-full bg-indigo-400 animate-pulse' />
+                        Open to opportunities
+                    </span>
 
-                    <div className='text-blue-400 text-3xl md:text-5xl font-semibold transition-all duration-300 hover:opacity-100' style={{
-                        background: 'linear-gradient(to right, #3b82f6, #ec4899)',
-                        WebkitBackgroundClip: 'text',
-                        WebkitTextFillColor: 'transparent'
-                    }}> Hii I'm <AnimatedName /> </div>
+                    {/* Name */}
+                    <div
+                        className='text-3xl md:text-5xl font-bold leading-tight'
+                        style={{
+                            background: 'linear-gradient(to right, #3b82f6, #ec4899)',
+                            WebkitBackgroundClip: 'text',
+                            WebkitTextFillColor: 'transparent'
+                        }}
+                    >
+                        Hi, I'm <AnimatedName />
+                    </div>
 
+                    {/* Role */}
+                    <h2
+                        className='text-xl md:text-3xl font-light'
+                        style={{
+                            background: 'linear-gradient(to right, #ec4899, #3b82f6)',
+                            WebkitBackgroundClip: 'text',
+                            WebkitTextFillColor: 'transparent'
+                        }}
+                    >
+                        Full Stack &amp; Backend Developer
+                    </h2>
 
-                    <h3 className='text-blue-400 text-2xl md:text-4xl font-light transition-all duration-300 hover:opacity-100' style={{
-                        background: 'linear-gradient(to right, #ec4899, #3b82f6)',
-                        WebkitBackgroundClip: 'text',
-                        WebkitTextFillColor: 'transparent'
-                    }}>
-                        Tech Enthusiast
-                    </h3>
+                    {/* Divider */}
+                    <div className='w-10 h-0.5 rounded-full bg-gradient-to-r from-blue-500 to-pink-500' />
 
-                    <p className='md:text-base text-pretty text-sm text-gray-500 text-center'>
-                        A dedicated Tech Enthusiast aiming to grow as a skilled fullstack developer and build meaningful digital products.
+                    {/* Description */}
+                    <p className='text-sm md:text-base text-gray-500 leading-relaxed max-w-lg'>
+                        A CS graduate passionate about building scalable backend systems and
+                        meaningful full-stack products — from REST APIs and job queues to
+                        clean, responsive UIs.
                     </p>
-                    <div>
-                        <InterestsRotator />
+
+                    {/* Interests rotator */}
+                    <InterestsRotator />
+
+                    {/* CTA buttons */}
+                    <div className='flex flex-wrap gap-3 justify-center mt-2'
+                        
+                            href='/Saifuddin-Khan-Resume.pdf'
+                            download='Saifuddin-Khan-Resume.pdf'
+                            className='inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-indigo-500 hover:opacity-90 text-white font-medium text-base rounded-xl px-6 py-3 transition-all duration-200 hover:-translate-y-0.5'
+                        >
+                            📄 Download Resume
+                        <a
+                        
+                            href='#projects'
+                            className='inline-flex items-center gap-2 border border-gray-300 hover:border-indigo-400 hover:text-indigo-400 text-gray-500 font-medium text-base rounded-xl px-6 py-3 transition-all duration-200 hover:-translate-y-0.5'
+                        >
+                            View Projects →
+                        </a>
                     </div>
 
                 </motion.div>
-
             </div>
-
-           <a 
-                 href="sk-resume.pdf" 
-                 download="Saifuddin-Khan-Resume.pdf"
-                 className='bg-blue-400 hover:bg-blue-500 rounded-xl p-3 mt-5 font-medium text-white text-xl transition-colors duration-300 inline-block text-center'
-             >
-                 📄 Download Resume
-             </a>
-
         </div>
-    )
-}
+    );
+};
 
-export default Hero
+export default Hero;
