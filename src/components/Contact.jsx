@@ -19,7 +19,7 @@ const Contact = () => {
           
         <div className='flex flex-col p-2 ' >
           <CiLinkedin className=' text-xl md:text-2xl' />
-          <a href="https://www.linkedin.com/in/saifuddinkhan" className='text-sm md:text-xl'>linkedin.com/in/saifuddin-khan</a>
+          <a href="https://www.linkedin.com/in/saifuddinkhan" className='text-sm md:text-xl'>linkedin.com/in/saifuddinkhan</a>
         </div>
       </div>
     </div>
