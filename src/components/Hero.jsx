@@ -14,13 +14,11 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.3 }}
                     className='flex md:max-w-[720px] flex-col items-center justify-center gap-4 text-center'
                 >
-                    {/* Availability badge */}
                     <span className='inline-flex items-center gap-2 text-sm text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 rounded-full px-4 py-1.5 font-medium'>
                         <span className='w-2 h-2 rounded-full bg-indigo-400 animate-pulse' />
                         Open to opportunities
                     </span>
 
-                    {/* Name */}
                     <div
                         className='text-3xl md:text-5xl font-bold leading-tight'
                         style={{
@@ -32,7 +30,6 @@ const Hero = () => {
                         Hi, I'm <AnimatedName />
                     </div>
 
-                    {/* Role */}
                     <h2
                         className='text-xl md:text-3xl font-light'
                         style={{
@@ -44,17 +41,14 @@ const Hero = () => {
                         Full Stack &amp; Backend Developer
                     </h2>
 
-                    {/* Divider */}
                     <div className='w-10 h-0.5 rounded-full bg-gradient-to-r from-blue-500 to-pink-500' />
 
-                    {/* Description */}
                     <p className='text-sm md:text-base text-gray-500 leading-relaxed max-w-lg'>
                         A CS graduate passionate about building scalable backend systems and
                         meaningful full-stack products — from REST APIs and job queues to
                         clean, responsive UIs.
                     </p>
 
-                    {/* Interests rotator */}
                     <InterestsRotator />
 
                     {/* CTA buttons */}
