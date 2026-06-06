@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from '../assets/async_doc.png';
+import image1 from '../assets/async_doc.jpeg';
 import image2 from '../assets/github.png';
 import image3 from '../assets/event.png';
 import image4 from '../assets/expense-tracker_1.png';
